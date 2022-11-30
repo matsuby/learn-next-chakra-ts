@@ -35,4 +35,18 @@ yarn dev
 
 ```bash
 yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion react-icons
+
+### _app.tsx作成
+cat << EOF > pages/_app.tsx
+import type { AppProps } from "next/app";
+import { ChakraProvider } from "@chakra-ui/react";
+
+export default function ({ Component, pageProps }: AppProps) {
+  return (
+    <ChakraProvider>
+      <Component {...pageProps} />
+    </ChakraProvider>
+  );
+}
+EOF
 ```
