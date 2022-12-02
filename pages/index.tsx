@@ -19,6 +19,11 @@ export default function IndexPage() {
                 02-styleprops
               </Link>
             </ListItem>
+            <ListItem>
+              <Link as={NextLink} href="/lv1/03-responsive">
+                03-responsive
+              </Link>
+            </ListItem>
           </List>
         </Box>
 

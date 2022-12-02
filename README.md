@@ -8,3 +8,5 @@
 
 ### Lv1
 * [01: Next.js + Chakra UI + TypeScript プロジェクトの初期化](./docs/lv1/01-setup.md)
+* [02: Style Props](./docs/lv1/02-style-props.md)
+* [03: レスポンシブデザイン](./docs/lv1/03-responsive.md)
