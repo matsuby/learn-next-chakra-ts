@@ -24,6 +24,11 @@ export default function IndexPage() {
                 03-responsive
               </Link>
             </ListItem>
+            <ListItem>
+              <Link as={NextLink} href="/lv1/04-flex">
+                04-flex
+              </Link>
+            </ListItem>
           </List>
         </Box>
 
